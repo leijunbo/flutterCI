@@ -8,9 +8,9 @@ jobs:
     runs-on: macos-latest
 
     steps:
-      - uses: actions/checkout@v1
+      - uses: actions/checkout@v4
       #三方flutter的Action, 它可以再服务器配置一个Flutter环境
-      - uses: subosito/flutter-action@v1
+      - uses: subosito/flutter-action@v4
         with:
           flutter-version: '3.19.3'
           channel: 'stable'
